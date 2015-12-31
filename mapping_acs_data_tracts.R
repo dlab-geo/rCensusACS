@@ -2,10 +2,9 @@
 # Name: mapping_acs_data_tracts.R
 # Author: pattyf@berkeley.edu
 # Last updated: 12/30/2015
-#
-# Tested with R version 3.2.2 (2015-08-14)
-#
+# Tested with R version 3.2.2 (2015-08-14) on MacOSX 10.9.5
 
+#
 # This script follows the blog post at:
 # Help page for acs14lite
 # http://rpubs.com/walkerke/acs14lite
@@ -19,7 +18,7 @@ rm(list = ls())
 
 # Install & Load the R libraries that we will use
 # if they are not already on your system
-# install.packages(c('dplyr', 'ggplot2', 'ggmap', 'devtools'))
+# install.packages(c('dplyr', 'ggplot2', 'ggmap', 'devtools','sp','rgdal','rgeos'))
 # devtools::install_github('walkerke/acs14lite')
 # devtools::install_github('walkerke/tigris')
 # devtools::install_github("becarioprecario/cartodb-r/CartoDB", dep = TRUE)
