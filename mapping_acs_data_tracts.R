@@ -3,6 +3,9 @@
 # Author: pattyf@berkeley.edu
 # Last updated: 12/30/2015
 #
+# Tested with R version 3.2.2 (2015-08-14)
+#
+
 # This script follows the blog post at:
 # Help page for acs14lite
 # http://rpubs.com/walkerke/acs14lite
