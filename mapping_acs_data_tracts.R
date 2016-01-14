@@ -18,7 +18,7 @@ rm(list = ls())
 
 # Install & Load the R libraries that we will use
 # if they are not already on your system
-# install.packages(c('dplyr', 'ggplot2', 'ggmap', 'devtools','sp','rgdal','rgeos'))
+# install.packages(c('dplyr', 'ggplot2', 'ggmap', 'devtools','sp','rgdal','maptools','rgeos'))
 # devtools::install_github('walkerke/acs14lite')
 # devtools::install_github('walkerke/tigris')
 # devtools::install_github("becarioprecario/cartodb-r/CartoDB", dep = TRUE)
@@ -28,6 +28,7 @@ library(acs14lite) # used to fetch ACS 2010-2014 data from the Census API (requi
 library(tigris) # used to fetch TIGER data (shapefiles)
 library(dplyr) # used to process ACS data
 library(ggplot2) # to make maps with ggplot
+library(maptools) #may be needed by ggplot and basemaps
 library(ggmap) # for mapping using remote basemaps like Google Maps data
 
 # Set the current working directory
